@@ -1,13 +1,16 @@
 # Python
 *.pyc
 __pycache__/
-migrations/
+jobs/migrations/
+users/migrations/
+*.py[cod]
+*.so
 
 # Django
 *.sqlite3
-*.log
+db.sqlite3
+/media/
 media/
-staticfiles/
 
 # Environment
 .env
@@ -15,9 +18,14 @@ staticfiles/
 env/
 venv/
 
+#celery beat
+celerybeat-schedule
+
+#static
 media/resume/
 
 # Docker
+*.log
 *.pid
 *.db
 *.tgz
