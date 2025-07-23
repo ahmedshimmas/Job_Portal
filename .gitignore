@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+migrations/
+
+# Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment
+.env
+.env.*
+env/
+venv/
+
+media/resume/
+
+# Docker
+*.pid
+*.db
+*.tgz
+*.bak
+docker-compose.override.yml
+.vscode/
+
+# IDEs
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
